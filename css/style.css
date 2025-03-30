@@ -1,0 +1,76 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 0 10vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .nav_logo h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  .nav_link {
+    display: flex;
+    list-style: none;
+  }
+
+.welcome {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.welcome_box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.featured_products {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.products_grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product_card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(73, 76, 97, 0.5);
+    color: #fff;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
